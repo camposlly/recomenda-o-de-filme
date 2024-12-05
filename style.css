@@ -1,0 +1,47 @@
+/*ESTILO GERAL*/
+
+*{
+margin: 20;
+padding: 20;
+box-sizing: border-box;
+font-family:monospace;
+}
+
+body{
+ background-color:rgb(173, 125, 218) ; 
+height:100vh;
+color: rgba(115, 37, 146, 0.726);
+font-size:x-large
+}
+
+ul{
+display: list-item;
+margin: 0 10px;
+font-size: 24px;
+text-decoration: none;
+color:blueviolet;
+}
+
+img {
+    text-align: center;
+    width:150px;
+    padding: 10px;
+      }
+      
+      .categoria-videos img { 
+       display:flex;
+       overflow-x:auto;
+       gap:20px;
+      }
+
+      
+      .categoria-videos img {
+        opacity:0.5;
+        height:100px;
+      }
+
+
+      .categorias-videos img:hover {
+        opacity: 1.0;
+        border:cornsilk 3px;
+      }
